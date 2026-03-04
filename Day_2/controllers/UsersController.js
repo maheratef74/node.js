@@ -29,7 +29,7 @@ async function createUser(req, res, next) {
   } catch (err) { next(err); }
 }
 
-async function patchPassword(req, res, next) {
+async function changePassword(req, res, next) {
   try {
     const id = Number(req.params.id);
     const { password } = req.body;
@@ -55,4 +55,4 @@ async function deleteUser(req, res, next) {
   } catch (err) { next(err); }
 }
 
-module.exports = { getAll, getById, createUser, patchPassword, deleteUser };
+module.exports = { getAll, getById, createUser, changePassword, deleteUser };

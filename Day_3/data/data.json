@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S22",
+      "price": 899,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro",
+      "price": 1999,
+      "categoryId": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Phones"
+    },
+    {
+      "id": 2,
+      "name": "Laptops"
+    },
+    {
+      "id": 3,
+      "name": "PC"
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "name": "maher",
+      "email": "maher@example.com",
+      "password": "123456"
+    }
+  ]
+}
